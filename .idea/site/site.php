@@ -42,10 +42,10 @@
         //echo $exampleofString[7];
         //Modify individual characters
         $exampleofString[0] = "S";
-        echo $exampleofString;
         //String Replace
+        $stringReplace = "This is how you replace a word in a string <br>";
+        echo str_replace("This", "Here", $stringReplace);
 
-        echo str_replace("These", "Those", $exampleofString);
         //Sub string
         echo substr($exampleofString, 14);
 
