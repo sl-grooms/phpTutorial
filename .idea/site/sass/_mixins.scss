@@ -1,0 +1,14 @@
+//These are dry (don't repeat yourself) These are added to more than one element or class, so we can reuse these instead of saying them multiple times.
+//You can refer to flexCenter to call these
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//Use this for media queries later
+@mixin mq($size) {
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
