@@ -1,3 +1,5 @@
+<!--This was a tutorial. It is not referenced in the flash cards game.-->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
